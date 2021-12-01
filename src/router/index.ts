@@ -49,11 +49,14 @@ const routes: Array<RouteRecordRaw> = [
   },
 ];
 
+//TOPの削除
+export const menuRoutes = routes.slice(1, routes.length);
+
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes,
   scrollBehavior() {
-    return { left: 0, top: 0 }
+    return { left: 0, top: 0 };
   },
 });
 
