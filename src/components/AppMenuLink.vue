@@ -12,7 +12,7 @@ export default defineComponent({
   },
   methods: {
     onClickMenuClose() {
-      console.log(">>onClickMenuClose")
+      console.log(">>onClickMenuClose");
     },
   },
 });
